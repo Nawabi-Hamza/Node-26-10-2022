@@ -22,12 +22,12 @@
 <body>
    <div class="container-fluid">
       <div class="row">
-         <div class="col"></div>
+         <div class="col" id="myDiv"></div>
          <div class="col">
-            <form action=""  >
-               <input type="text" class="form-control" placeholder="user_name">
-               <input type="text" class="form-control" placeholder="address">
-               <input type="text" class="form-control" placeholder="email">
+            <form action="./DataBase.js"  method="post" >
+               <input type="text" id="name" class="form-control" placeholder="user_name">
+               <input type="text" id="address" class="form-control" placeholder="address">
+               <input type="text" id="email" class="form-control" placeholder="email">
                <button type="submit" class="btn btn-warning form-control">Submit</button>
             </form>
          </div>
@@ -35,4 +35,5 @@
       </div>
    </div>
 </body>
+<script src="./DataBase.js"></script>
 </html>
